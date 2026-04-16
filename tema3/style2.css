@@ -117,6 +117,53 @@ body {
   flex: 0 0 auto;
   color: rgba(0,0,0,0.4);
 }
+/* Hesap maddeleri */
+.accounts-section{
+  display: grid;
+  gap: 8px;
+}
+.account-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(0,0,0,0.02);
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.account-icon{
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.04);
+}
+.account-info{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.account-label{
+  font-weight: 600;
+}
+.account-value{
+  color: #666;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.account-action{
+  flex: 0 0 auto;
+  color: rgba(0,0,0,0.4);
+  cursor: pointer;
+}
 /* Resim/svgle uyumluluk */
 img, svg{max-width:100%;height:auto;}
 /* Küçük ekranlar */
